@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const UserCard = () => {
   const [users, setUsers] = useState([]);
@@ -32,10 +33,12 @@ const UserCard = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {users.map((user) => (
         <div key={user.id} className="bg-white shadow-md rounded-lg p-4 flex items-center space-x-4">
-          <img
-            src={`https://i.pravatar.cc/100?u=${user.id}`} // Random avatar generator
+          <Image
+            src={`https://i.pravatar.cc/100?u=${user.id}`}
             alt={user.name}
-            className="w-12 h-12 rounded-full"
+            width={48} // 12rem converted to px
+            height={48}
+            className="rounded-full"
           />
           <div>
             <h3 className="text-lg font-bold">{user.name}</h3>

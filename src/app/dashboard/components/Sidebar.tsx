@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FiMenu, FiLogOut } from "react-icons/fi";
 import { FaHome, FaChartLine, FaUser, FaCog } from "react-icons/fa";
 import Link from "next/link";
