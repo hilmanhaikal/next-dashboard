@@ -26,7 +26,7 @@ const StatsGrid = () => {
         setStats({
           users: users.length,
           posts: posts.length,
-          revenue: (users.length * 1000).toLocaleString(), // Fake revenue calculation
+          revenue: Number(users.length) * 1000, // Fake revenue calculation
         });
       } catch (err) {
         setError(err.message);
