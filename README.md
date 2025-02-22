@@ -7,5 +7,6 @@ A modern and responsive **analytics dashboard** designed for tracking user stati
 ✅ **Dashboard Stats** – Grid-based cards for quick insights  
 ✅ **User Table & Chart** – Displays real-time user data  
 ✅ **Modern UI/UX** – Responsive design with optimized performance  
+✅ **API Data Fetching** – Retrieves and displays user data from a fake API  
 
 ![dashboard](https://github.com/user-attachments/assets/cadd95fe-7ffd-4710-884a-de9120fe1d10)
